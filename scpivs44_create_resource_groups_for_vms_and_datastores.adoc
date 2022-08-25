@@ -88,7 +88,7 @@ ONTAP 9.8에서는 스위치백 후 백업이 중단됩니다. 이 문제는 ONT
 SnapCenter 리소스 그룹을 만들 때 호환성 검사를 수행합니다.
 
 +
-<<Manage compatibility check failures>>
+ compatibility check failures
 
 
 
@@ -167,7 +167,7 @@ NOTE: 리소스 그룹에 연결된 각 정책에 대해 '-recent' 백업이 생
 다음 * 을 클릭하면 시스템이 먼저 SnapCenter가 관리하고 선택한 리소스가 있는 스토리지와 호환되는지 확인합니다.
 
 +
-'선택한 <resource-name>은(는) SnapCenter와 호환되지 않습니다.'라는 메시지가 표시되면 선택한 리소스가 SnapCenter와 호환되지 않습니다. 을 참조하십시오 <<Manage compatibility check failures>> 를 참조하십시오.
+'선택한 <resource-name>은(는) SnapCenter와 호환되지 않습니다.'라는 메시지가 표시되면 선택한 리소스가 SnapCenter와 호환되지 않습니다. 을 참조하십시오  compatibility check failures 를 참조하십시오.
 
 . Spanning disks * 페이지에서 여러 데이터 저장소에 걸쳐 VMDK가 여러 개인 VM의 옵션을 선택합니다.
 +
