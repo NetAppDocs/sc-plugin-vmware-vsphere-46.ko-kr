@@ -1,6 +1,7 @@
 ---
 settings:
   name: SnapCenter Plug-in for VMware vSphere 4.6
+  downlevel: true
   internal:
     pdf_enabled: true
   prod:
@@ -9,8 +10,10 @@ settings:
   versions:
   - version-number: '4.6'
     url: "/sc-plugin-vmware-vsphere-46"
-  - version-number: '4.9'
+  - version-number: '5.0'
     url: "/sc-plugin-vmware-vsphere"
+  - version-number: '4.9'
+    url: "/sc-plugin-vmware-vsphere-49"
   - version-number: '4.8'
     url: "/sc-plugin-vmware-vsphere-48"
   - version-number: '4.7'
@@ -242,39 +245,3 @@ sidebar:
       url: "/scpivs44_information_not_displayed_after_upgrading_to_a_new_patch_of_the_same_release.html"
   - title: 법적 고지
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 시작하십시오
-    links:
-    - title: 릴리즈 노트
-      url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2881136
-    - title: SCV에 대해 알아보십시오
-      url: "/scpivs44_concepts_overview.html"
-    - title: 구현할 수 있습니다
-      url: "/scpivs44_deployment_planning_and_requirements.html"
-    - title: 빠른 시작
-      url: "/scpivs44_download_the_ova_open_virtual_appliance.html"
-  - title: VM, VMDK 및 데이터 저장소 보호
-    links:
-    - title: 데이터 보호
-      url: "/scpivs44_protect_data_overview.html"
-    - title: 백업에서 복원합니다
-      url: "/scpivs44_restore_from_backups_overview.html"
-    - title: REST API 사용
-      url: "/scpivs44_rest_apis_overview.html"
-    - title: Windows 기반 SCV에서 마이그레이션
-      url: "/scpivs44_migrate.html"
-  - title: 블로그 커뮤니티
-    links:
-    - title: NetApp 블로그 – SCV
-      url: https://blog.netapp.com/tag/snapcenter/
-    - title: NetApp 커뮤니티 – SCV
-      url: https://community.netapp.com/t5/forums/filteredbylabelpage/board-id/backup-and-restore-discussions/label-name/snapcenter
-  - title: 더 많은 리소스
-    links:
-    - title: SnapCenter 소프트웨어 설명서
-      url: https://docs.netapp.com/us-en/snapcenter/index.html
-    - title: 이전 버전의 SCV에 대한 문서
-      url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=63240
-    - title: NetApp 기술 자료 – SCV
-      url: https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter
